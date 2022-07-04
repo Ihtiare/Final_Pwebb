@@ -1,0 +1,232 @@
+body {
+    font: 100% 'times new roman';
+    margin: 20px;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    xmin-width: 3000px;
+}
+
+#top,
+.kiri {
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#top {
+    background-color: #005eff;
+    padding: 15px;
+}
+
+.spasi {
+    width: 100%;
+    height: 10px;
+}
+
+.spasi2 {
+    width: 2.5%;
+    height: 1000px;
+    float: left;
+}
+
+.spasi3 {
+    height: 20px;
+}
+
+.bartas {
+    border: 3px solid #1E90FF;
+    border-right: hidden;
+    border-left: hidden;
+}
+
+.barlis {
+    padding: 6px;
+    margin: 6px;
+    width: 100%;
+}
+
+.bartem {
+    text-align: center;
+    border: none;
+}
+
+.bartem,
+.pp {
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.bartem:hover {
+    background-color: #B0C4DE;
+}
+
+.pp:hover {
+    background-color: #E6E6FA;
+}
+
+.inti {
+    position: relative;
+    overflow: auto;
+}
+
+.kanan,
+.kiri,
+.main {
+    height: 100%;
+    background-color: white;
+    margin: 10px;
+}
+
+.kanan {
+    width: 20%;
+    float: left;
+}
+
+.main {
+    width: 55%;
+    float: left;
+}
+
+.kiri {
+    width: 20%;
+}
+
+.subkiri {
+    margin: 5px;
+    padding: 5px;
+}
+
+.bar {
+    background-color: #F08080;
+    margin: 10px;
+    text-align: center;
+    border-right: hidden;
+    border-left: hidden;
+}
+
+.item {
+    width: 200px;
+}
+
+.list {
+    margin: 0px;
+    padding: 20px;
+}
+
+.gambar1 {
+    padding: 20px;
+    display: block;
+    margin-left: 15%;
+}
+
+.submain,
+.judmain,
+.tangmain {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    font: size 70px;
+}
+
+.tangmain {
+    text-align: right;
+    font: size 50px;
+}
+
+.subinput {
+    margin: 3px;
+    width: 100%;
+}
+
+.tombol {
+    border: none;
+    margin: 10px;
+    padding: auto;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+}
+
+.bawah {
+    width: 100%;
+    height: 200px;
+    background-color: #C0C0C0;
+}
+
+.subawah {
+    display: flex;
+}
+
+.ba1,
+.ba2,
+.ba3 {
+    height: 100%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ba1,
+.ba3 {
+    width: 30%;
+}
+
+.ba2 {
+    width: 40%;
+}
+
+.subpol {
+    height: 200px;
+    width: 100%;
+}
+
+.pol {
+    margin: 20px;
+    width: 80%;
+    height: 100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #3f729b;
+    color: #ff0000;
+}
+
+.lin {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
